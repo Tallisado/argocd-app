@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Tallisado/argocd-app.git
     targetRevision: HEAD
-    path: environments/staging/apps/second
+    path: environments/staging/second
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
