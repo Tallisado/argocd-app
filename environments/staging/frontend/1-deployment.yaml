@@ -25,3 +25,5 @@ spec:
         ports:
         - containerPort: 80
           name: nginx
+      imagePullSecrets:
+      - name: dockerconfigjson
