@@ -1,0 +1,6 @@
+namespace: bar
+images:
+- name: tallisado/private-nginx
+  newTag: v1.0.3
+resources:
+- "../../../base"
